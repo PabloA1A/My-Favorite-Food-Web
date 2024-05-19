@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "learning npm",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./src/sass/styles.scss ./public/styles/styles.css",
+    "sass-w": "sass --watch ./src/sass/styles.scss ./public/styles/styles.css"
   },
   "author": "Pablo Abad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
 }
