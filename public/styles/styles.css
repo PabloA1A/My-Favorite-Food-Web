@@ -1,5 +1,11 @@
+header h1 {
+  color: coral;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+}
+
 body {
-  background-color: green;
+  background-color: cyan;
 }
 
 /*# sourceMappingURL=styles.css.map */
