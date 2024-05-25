@@ -1,7 +1,24 @@
-header {
+h1 {
+	font-size: 60px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	color: rgb(70, 16, 247);
+	font-family: Arial, sans-serif;
+}
+.img-fluid {
+	width: 100%;
+	display: block;
+	height: 50vh;
+	object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
     h1 {
-        color: coral;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: medium;
+        font-size: 40px; 
+    }
+
+    .img-fluid {
+        height: 30vh;
     }
 }
